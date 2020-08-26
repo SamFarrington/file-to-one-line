@@ -1,0 +1,23 @@
+{
+  "name": "file-to-one-line",
+  "version": "1.0.0",
+  "description": "A zero dependency tool that reads a file and escapes any instances of \\n or \\r so the content becomes one line.",
+  "bin": {
+    "file-to-one-line": "./cli.js"
+  },
+  "main": "file-to-one-line.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamFarrington/file-to-one-line.git"
+  },
+  "keywords": ["files", "to", "one", "line", "escape", "flat", "flatten"],
+  "author": "Sam Farrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamFarrington/file-to-one-line/issues"
+  },
+  "homepage": "https://github.com/SamFarrington/file-to-one-line#readme"
+}
